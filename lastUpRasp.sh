@@ -1,7 +1,8 @@
 #!/bin/bash
 
-for i in {1. .10}
+for i in {1 2 3 4 5 6 7 8 9 10}
 do
-    touch looser.txt;
-    touch idiot.txt;
+    touch $i+looser.txt;
+    touch $i+idiot.txt;
+    echo "hello";
 done
